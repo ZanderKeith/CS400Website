@@ -45,6 +45,31 @@
         </crouton>
       </td>
     </tr>
+    <tr>
+      <td>
+        <p> The Fibonacci Sequence </p>
+        <button id = "CHANGE" onclick="sequence()">CHANGE</button>
+        <script lang="JavaScript">
+          var fibNumMin2 = 0;
+          var fibNumMin1 = 0;
+          var curFibNum = 0;
+          function sequence() {
+            var button = document.getElementById("CHANGE");
+            if (fibNumMin1 == 0) {
+              fibNumMin1 = 1;
+            } else {
+              fibNumMin2 = fibNumMin1;
+              fibNumMin1 = curFibNum;
+              curFibNum = fibNumMin1 + fibNumMin2;
+            }
+            button.innerHTML = curFibNum;
+          }
+        </script>
+      </td>
+      <td>
+        <p> uncool thing 3</p>
+      </td>
+    </tr>
   </table>
 
 
