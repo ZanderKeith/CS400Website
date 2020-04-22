@@ -6,3 +6,22 @@ body {
   color: white;
   text-align: center;
 }
+
+table {
+  margin: 0 auto;
+  border: 1;
+  border-color: white;
+}
+
+th, td {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+ul {
+  text-align: left;
+}
+
+crouton {
+  font-size:40px;
+}
