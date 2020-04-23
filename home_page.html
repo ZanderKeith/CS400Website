@@ -37,7 +37,7 @@
     <tr>
       <td>
         <h3> Toast </h3>
-        <img src="https://media2.fdncms.com/chicago/imager/toaster-with-toast-at-baker-miller-baker/u/original/15639109/1416065441-unnamed.jpg" alt="Have some toast in this trying time" width="100px" />
+        <img src="https://media2.fdncms.com/chicago/imager/toaster-with-toast-at-baker-miller-baker/u/original/15639109/1416065441-unnamed.jpg" alt="Have some toast in this trying time" width="100px" >
       </td>
       <td>
         <crouton>
@@ -67,7 +67,16 @@
         </script>
       </td>
       <td>
-        <p> uncool thing 3</p>
+        <p> Multiples of 11 </p>
+        <button id = "eleven" onclick="multiples()">CHANGE</button>
+        <script lang="JavaScript">
+          var curNum = 1;
+          function multiples() {
+            var button = document.getElementById("eleven");
+            button.innerHTML = curNum;
+            curNum = curNum * 11;
+          }
+        </script>
       </td>
     </tr>
   </table>

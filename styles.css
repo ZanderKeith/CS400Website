@@ -9,13 +9,15 @@ body {
 
 table {
   margin: 0 auto;
-  border: 1;
-  border-color: white;
 }
 
 th, td {
   padding-left: 8px;
   padding-right: 8px;
+}
+
+table, th, td {
+  border: 1px solid white;
 }
 
 ul {
