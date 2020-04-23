@@ -25,5 +25,12 @@ ul {
 }
 
 crouton {
-  font-size:40px;
+  font-size: xx-large;
+  font-family: cursive;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+button {
+  margin-bottom: 15px;
 }
